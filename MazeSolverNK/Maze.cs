@@ -28,15 +28,7 @@ namespace MazeSolverNK
             }
         }
 
-        // Reset all cells' visited and path flags
-        /*private void ResetVisited()
-        {
-            foreach (var cell in cells)
-            {
-                cell.Visited = false;
-                cell.Selected = false; // Reset the selection as well
-            }
-        }*/
+        
 
         // Solve the maze using Depth-First Search (DFS)
         public List<Cell> SolveDFS()
